@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpot"  content="width=device-width,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>快捷健</title>
+    <script>
+        (function(){
+            var html = document.documentElement;
+            var W = html.getBoundingClientRect().width;
+            html.style.fontSize = W/15 + 'px';
+        })()
+    </script>
+    <link rel="stylesheet" href="../css/commodity-dt.css">
+</head>
+<body>
+    <section class="main">
+        <!--图文详情-->
+        <div class="dt-list">
+            <img src="../img/details.jpg" alt="商品介绍">
+            <div class="dt-empty">暂无详情</div>
+        </div>
+
+        <!--商品参数-->
+        <div class="dt-table">
+            <table>
+                <tr>
+                    <td class="tb-left">商品编号</td>
+                    <td class="tb-right">111000099</td>
+                </tr>
+                <tr>
+                    <td class="tb-left">口味</td>
+                    <td class="tb-right">香辣</td>
+                </tr>
+                <tr>
+                    <td class="tb-left">产地</td>
+                    <td class="tb-right">中国</td>
+                </tr>
+            </table>
+            <div class="dt-empty">暂无参数</div>
+        </div>
+
+        <!--商品咨询-->
+        <div class="dt-advice">
+            <div class="dialog">
+                <p class="amount">有300条咨询</p>
+                <p class="question">咨询内容：<span>月供怎么付？</span></p>
+                <p class="answer"><span class="ajian">阿健回复</span><span>您好！具体的分期信息请您点此链接查看，感谢您对快捷健的支持！祝您购物愉快！</span></p>
+            </div>
+            <div class="dt-empty">暂无咨询</div
+        </div>
+
+    </section>
+</body>
+</html>

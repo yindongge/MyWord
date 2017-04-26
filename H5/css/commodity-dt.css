@@ -37,11 +37,26 @@ html,
 body {
   width: 100%;
   height: 100%;
+  overflow: hidden;
+}
+#cunsult {
+  font-size: 0.6rem;
+  width: 15rem;
+  display: block;
+  line-height: 1.6rem;
+  text-align: center;
+  background: #ffaa00;
+  color: #fff;
+  padding: 0 0.4rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
 .main {
   width: 15rem;
   padding: 0 0.4rem;
   font-family: "黑体";
+  font-size: 0.6rem;
 }
 .main img {
   width: 14.2rem;
@@ -49,7 +64,7 @@ body {
 .main .dt-empty {
   width: 14.2rem;
   font-size: 0.6rem;
-  line-height: 3rem;
+  line-height: 2.96rem;
   text-align: center;
 }
 .main .dt-table {
@@ -68,4 +83,22 @@ body {
   width: 8.6rem;
   padding: 0.56rem 1.2rem 0.56rem 0.8rem;
   border-bottom: 0.02rem solid #e5e5e5;
+}
+.main .dt-advice .amount {
+  color: #999999;
+  border-bottom: 0.02rem solid #e5e5e5;
+}
+.main .dt-advice p {
+  padding: 0.4rem 0;
+}
+.main .dt-advice .dialog {
+  font-size: 0.48rem;
+  color: #666666;
+  border-bottom: 0.02rem solid #e5e5e5;
+}
+.main .dt-advice .ajian {
+  color: #ffaa00;
+}
+.main .dt-advice .dialog .content {
+  margin-left: 0.28rem;
 }
